@@ -3,7 +3,7 @@ import Link from 'next/link';
 import ThemeToggle from './ThemeToggle';
 
 const links = [
-  { href: '#about', label: 'About' },
+  // { href: '#about', label: 'About' },
   { href: '#skills', label: 'Skills' },
   { href: '#experience', label: 'Experience' },
   { href: '#projects', label: 'Projects' },

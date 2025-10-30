@@ -10,7 +10,7 @@ export default function Hero() {
           Building delightful web experiences
         </h1>
         <p className="mt-6 text-balance mx-auto max-w-2xl opacity-80">
-          I’m a frontend engineer focused on crafting fast, accessible interfaces with a minimalist touch.
+        Software engineer passionate about building technology that solves real problems. I love learning new tools, designing clean systems, and turning ideas into working products. Whether it’s experimenting with cloud tech, automation, or trading systems, I enjoy creating things that push my skills and make an impact.
         </p>
         <div className="mt-10 flex items-center justify-center gap-4">
           <Link href="#projects" className="rounded-md bg-black text-white dark:bg-white dark:text-black px-5 py-2 text-sm">
