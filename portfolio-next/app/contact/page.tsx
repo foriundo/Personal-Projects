@@ -9,20 +9,20 @@ export default function ContactPage() {
 
         <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
           <a
-            href="mailto:your.email@example.com"
+            href="mailto:foriundo@outlook.com"
             className="rounded-md border border-border p-4 flex items-center gap-3 hover:opacity-100 opacity-90"
           >
             <img src="/icons/mail.svg" alt="Email" width="20" height="20" />
-            <span className="text-sm">your.email@example.com</span>
+            <span className="text-sm">foriundo@outlook.com</span>
           </a>
           <a
-            href="https://linkedin.com/in/your-handle"
+            href="https://www.linkedin.com/in/faoriundo/"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-md border border-border p-4 flex items-center gap-3 hover:opacity-100 opacity-90"
           >
-            <img src="/icons/linkedin.svg" alt="LinkedIn" width="20" height="20" />
-            <span className="text-sm">linkedin.com/in/your-handle</span>
+            <img src="/icons/linkedin.svg" alt="LinkedIn" width="20" height="20" className="grayscale" />
+            <span className="text-sm">linkedin.com/in/faoriundo</span>
           </a>
         </div>
 

@@ -1,6 +1,5 @@
 import Section from '@/components/Section';
 import Image from 'next/image';
-import SpotifyTracks from '@/components/SpotifyTracks';
 
 export default function AboutPage() {
   return (
@@ -24,7 +23,6 @@ export default function AboutPage() {
             <p className="mt-6 text-balance opacity-80 text-lg leading-relaxed">
               Software engineer passionate about building technology that solves real problems. I love learning new tools, designing clean systems, and turning ideas into working products. Whether it's experimenting with cloud tech, automation, or AI, I enjoy creating things that push my skills and make an impact.
             </p>
-            <SpotifyTracks />
           </div>
         </div>
       </div>

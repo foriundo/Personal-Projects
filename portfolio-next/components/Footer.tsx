@@ -4,13 +4,13 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl px-4">
         <div className="flex items-center justify-center gap-5 mb-4">
           <a
-            href="https://linkedin.com/in/your-handle"
+            href="https://www.linkedin.com/in/faoriundo/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
             className="opacity-80 hover:opacity-100 transition-opacity"
           >
-            <img src="/icons/linkedin.svg" alt="LinkedIn" width="24" height="24" />
+            <img src="/icons/linkedin.svg" alt="LinkedIn" width="24" height="24" className="grayscale" />
           </a>
           <a
             href="https://github.com/your-handle"

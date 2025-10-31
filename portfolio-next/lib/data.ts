@@ -7,18 +7,12 @@ export const skills: string[] = [
   'C++',
   'HTML',
   'Tailwind CSS',
-  'MATLAB',
   'Git',
   'Docker',
   'Kubernetes',
-  'CI/CD',
-  'DevSecOps',
   'Grafana',
   'Prometheus',
   'Jenkins',
-  'Jira',
-  'Confluence',
-  'Bitbucket',
 ];
 
 export const experience: { company: string; role: string; period: string; bullets: string[] }[] = [
