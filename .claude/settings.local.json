@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm i *)",
+      "Bash(npm run *)",
+      "Bash(Get-Content \"C:\\\\Users\\\\foriu\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-foriu-OneDrive-Desktop-Personal-Projects\\\\11f1dd8a-b1aa-4c5b-983c-dcac30cf0357\\\\tasks\\\\b2xlahmsp.output\" -Wait)",
+      "Bash(Select-String -Pattern \"ready|error|failed|localhost\")"
+    ]
+  }
+}
