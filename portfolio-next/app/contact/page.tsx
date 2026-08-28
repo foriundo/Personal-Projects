@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Section from '@/components/Section';
 import CalendlyEmbed from './CalendlyEmbed';
 
@@ -13,7 +14,7 @@ export default function ContactPage() {
             href="mailto:foriundo@outlook.com"
             className="rounded-md border border-border p-4 flex items-center gap-3 hover:opacity-100 opacity-90"
           >
-            <img src="/icons/mail.svg" alt="Email" width="20" height="20" />
+            <Image src="/icons/mail.svg" alt="Email" width={20} height={20} />
             <span className="text-sm">foriundo@outlook.com</span>
           </a>
           <a
@@ -22,7 +23,7 @@ export default function ContactPage() {
             rel="noopener noreferrer"
             className="rounded-md border border-border p-4 flex items-center gap-3 hover:opacity-100 opacity-90"
           >
-            <img src="/icons/linkedin.svg" alt="LinkedIn" width="20" height="20" className="grayscale" />
+            <Image src="/icons/linkedin.svg" alt="LinkedIn" width={20} height={20} className="grayscale" />
             <span className="text-sm">linkedin.com/in/faoriundo</span>
           </a>
         </div>

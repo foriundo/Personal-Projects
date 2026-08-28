@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Section from '@/components/Section';
 import Link from 'next/link';
 
@@ -14,32 +15,40 @@ export default function HomePage() {
         </p>
 
         <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
-          <div className="aspect-square rounded-lg overflow-hidden border border-border">
-            <img 
-              src="/about/about-1.jpg" 
-              alt="About me" 
-              className="w-full h-full object-cover"
+          <div className="relative aspect-square rounded-lg overflow-hidden border border-border">
+            <Image
+              src="/about/about-1.jpg"
+              alt="About me"
+              fill
+              sizes="(min-width: 768px) 25vw, 50vw"
+              className="object-cover"
             />
           </div>
-          <div className="aspect-square rounded-lg overflow-hidden border border-border">
-            <img 
-              src="/about/about-2.jpg" 
-              alt="About me" 
-              className="w-full h-full object-cover"
+          <div className="relative aspect-square rounded-lg overflow-hidden border border-border">
+            <Image
+              src="/about/about-2.jpg"
+              alt="About me"
+              fill
+              sizes="(min-width: 768px) 25vw, 50vw"
+              className="object-cover"
             />
           </div>
-          <div className="aspect-square rounded-lg overflow-hidden border border-border">
-            <img 
-              src="/about/about-3.JPG" 
-              alt="About me" 
-              className="w-full h-full object-cover"
+          <div className="relative aspect-square rounded-lg overflow-hidden border border-border">
+            <Image
+              src="/about/about-3.JPG"
+              alt="About me"
+              fill
+              sizes="(min-width: 768px) 25vw, 50vw"
+              className="object-cover"
             />
           </div>
-          <div className="aspect-square rounded-lg overflow-hidden border border-border">
-            <img 
-              src="/about/about-4.JPEG" 
-              alt="About me" 
-              className="w-full h-full object-cover"
+          <div className="relative aspect-square rounded-lg overflow-hidden border border-border">
+            <Image
+              src="/about/about-4.JPEG"
+              alt="About me"
+              fill
+              sizes="(min-width: 768px) 25vw, 50vw"
+              className="object-cover"
             />
           </div>
         </div>

@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Footer() {
   return (
     <footer className="border-t border-border py-10">
@@ -10,7 +12,7 @@ export default function Footer() {
             aria-label="LinkedIn"
             className="opacity-80 hover:opacity-100 transition-opacity"
           >
-            <img src="/icons/linkedin.svg" alt="LinkedIn" width="24" height="24" className="grayscale" />
+            <Image src="/icons/linkedin.svg" alt="LinkedIn" width={24} height={24} className="grayscale" />
           </a>
           <a
             href="https://github.com/your-handle"
@@ -19,7 +21,7 @@ export default function Footer() {
             aria-label="GitHub"
             className="opacity-80 hover:opacity-100 transition-opacity"
           >
-            <img src="/icons/github.svg" alt="GitHub" width="24" height="24" />
+            <Image src="/icons/github.svg" alt="GitHub" width={24} height={24} />
           </a>
         </div>
         <div className="text-sm text-center opacity-70">
