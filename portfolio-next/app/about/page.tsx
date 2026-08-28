@@ -21,7 +21,7 @@ export default function AboutPage() {
               Who I Am
             </h1>
             <p className="mt-6 text-balance opacity-80 text-lg leading-relaxed">
-              Software engineer passionate about building technology that solves real problems. I love learning new tools, designing clean systems, and turning ideas into working products. Whether it's experimenting with cloud tech, automation, or AI, I enjoy creating things that push my skills and make an impact.
+              Software engineer passionate about building technology that solves real problems. I love learning new tools, designing clean systems, and turning ideas into working products. Whether it&apos;s experimenting with cloud tech, automation, or AI, I enjoy creating things that push my skills and make an impact.
             </p>
           </div>
         </div>
