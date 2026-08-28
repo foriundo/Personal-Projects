@@ -4,15 +4,30 @@ import type { BlogMeta } from '@/components/cards/BlogCard';
 export const skills: string[] = [
   'Python',
   'Java',
-  'C++',
-  'HTML',
-  'Tailwind CSS',
-  'Git',
+  'JavaScript',
+  'SQL',
+  'Bash',
+  'REST APIs',
+  'Microservices',
+  'Service-to-Service Automation',
+  'Concurrency/Multithreading',
+  'PostgreSQL/SQL',
+  'Redis',
+  'AWS (EC2, S3, CLI)',
+  'Terraform',
+  'Helm',
   'Docker',
   'Kubernetes',
-  'Grafana',
+  'OpenShift',
   'Prometheus',
+  'Grafana',
+  'Metrics/Alerting',
+  'SLI/SLO',
   'Jenkins',
+  'Git',
+  'BitBucket',
+  'JIRA',
+  'Agile/Scrum',
 ];
 
 export const experience: { company: string; role: string; period: string; bullets: string[] }[] = [
@@ -21,9 +36,13 @@ export const experience: { company: string; role: string; period: string; bullet
     role: 'Software Engineer',
     period: 'December 2023 — Present',
     bullets: [
-      'Supported Kubernetes platform engineering efforts, including node health checks, container orchestration, and Helm chart deployment for internal services.',
-      'Designed RESTful APIs and integrated them into CI/CD pipelines to streamline DevSecOps workflows and enable automated deployment validation.',
-      'Utilized Grafana to build system monitoring dashboards, increasing observability into platform performance and aiding proactive issue resolution.',
+      'Engineered a Retrieval-Augmented Generation feature with a BYOK architecture for OpenShift, integrating internal documentation with configurable LLM backends to deliver grounded, source cited responses.',
+      'Re-architected the container CVE scanning workflow by rebuilding ingestion and alert-classification logic, stabilizing daily scans across 200+ internal container images and reducing false-positive alerts by 30%.',
+      'Designed and shipped RESTful backend microservices that replaced manual operator steps with service-to-service automation, eliminating ~10 hours of manual effort per sprint across platform teams.',
+      'Built Prometheus/Grafana observability aggregating metrics from 8 internal tools into unified dashboards, cutting mean incident-investigation time from ~2 hours to ~10 minutes for the platform on-call rotation.',
+      'Automated build-to-deploy pipelines in Jenkins, containerizing services and pushing images to OpenShift with automated rollouts, cutting release time and eliminating manual deployment errors.',
+      'Served as a platform point-of-contact for teams onboarding onto OpenShift, diagnosing configuration and deployment errors and standardizing project setup to reduce onboarding friction across teams.',
+      'Developed a JavaScript customer portal consuming backend services to surface SLAs, SLOs, runbooks, and embedded media, giving 500+ internal users a single self-service interface.',
     ],
   },
   {
@@ -53,6 +72,17 @@ export const experience: { company: string; role: string; period: string; bullet
       'Constructed a database that served as a centralized directory for data logging ECM and CTR activity. This innovative solution played a pivotal role in improving overall company-wide performance by providing valuable insights into electronic control module and counter activity. ',
       'Provided Electronic Control Modules (ECM) hardware customer support, proactively resolving issues for 600+ companies, while also addressing product warranty issues, features, and changes made. ',
     ],
+  },
+];
+
+export const education: { degree: string; period: string }[] = [
+  {
+    degree: 'Bachelor of Science in Electrical Engineering',
+    period: '2018 — 2022',
+  },
+  {
+    degree: 'Master of Science in Computer Science',
+    period: '2024 — 2026',
   },
 ];
 

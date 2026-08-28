@@ -7,7 +7,7 @@ export default function HomePage() {
       <div className="mx-auto max-w-6xl px-4 py-24 text-center">
         <p className="text-sm uppercase tracking-widest opacity-60">Hello, I'm Fernando</p>
         <h1 className="mt-4 text-4xl md:text-6xl font-semibold tracking-tight">
-          Saxophonist, Dog lover, Software Engineer
+          Software Engineer
         </h1>
         <p className="mt-6 text-balance mx-auto max-w-2xl opacity-80 text-lg">
           Software engineer passionate about building technology that solves real problems. I love learning new tools, designing clean systems, and turning ideas into working products. Whether it's experimenting with cloud tech, automation, or AI, I enjoy creating things that push my skills and make an impact.

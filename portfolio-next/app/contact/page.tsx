@@ -1,4 +1,5 @@
 import Section from '@/components/Section';
+import CalendlyEmbed from './CalendlyEmbed';
 
 export default function ContactPage() {
   return (
@@ -29,12 +30,7 @@ export default function ContactPage() {
         <div className="mt-10">
           <h3 className="text-lg font-medium tracking-tight">Book a call</h3>
           <p className="mt-2 text-sm opacity-80">Schedule time to chat about opportunities or projects.</p>
-          <a
-            href="#"
-            className="inline-flex items-center gap-2 mt-4 rounded-md bg-black text-white dark:bg-white dark:text-black px-5 py-2 text-sm"
-          >
-            Book a call
-          </a>
+          <CalendlyEmbed url="https://calendly.com/foriundo" />
         </div>
       </div>
     </Section>
