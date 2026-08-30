@@ -12,16 +12,16 @@ export default function Footer() {
             aria-label="LinkedIn"
             className="opacity-80 hover:opacity-100 transition-opacity"
           >
-            <Image src="/icons/linkedin.svg" alt="LinkedIn" width={24} height={24} className="grayscale" />
+            <Image src="/icons/linkedin.svg" alt="LinkedIn" width={24} height={24} className="grayscale dark:invert" />
           </a>
           <a
-            href="https://github.com/your-handle"
+            href="https://github.com/foriundo"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
             className="opacity-80 hover:opacity-100 transition-opacity"
           >
-            <Image src="/icons/github.svg" alt="GitHub" width={24} height={24} />
+            <Image src="/icons/github.svg" alt="GitHub" width={24} height={24} className="dark:invert" />
           </a>
         </div>
         <div className="text-sm text-center opacity-70">
